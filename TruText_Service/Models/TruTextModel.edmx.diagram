@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44d22ac847e94218a160165f9c5703aa" Name="Diagram1">
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Book" Width="1.5" PointX="10.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Customer" Width="1.5" PointX="0.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Employee" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.OrderItem" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Order" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Role" Width="1.5" PointX="0.625" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Sale" Width="1.5" PointX="2.875" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.SalesItem" Width="1.5" PointX="8.875" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Supplier" Width="1.5" PointX="0.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.LoginPage" Width="1.5" PointX="9.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_OrderItems_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_SalesItems_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_Employees_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_Sales_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_Orders_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_SalesItems_Sales" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK_Sales_Customer1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
