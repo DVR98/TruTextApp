@@ -95,50 +95,50 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BooksCl.cs" />
-    <Compile Include="BooksPage.xaml.cs">
+    <Compile Include="Models\BooksCl.cs" />
+    <Compile Include="Views\BooksPage.xaml.cs">
       <DependentUpon>BooksPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BooksVm.cs" />
+    <Compile Include="ViewModels\BooksVm.cs" />
     <Compile Include="ComboBoxPairs.cs" />
     <Compile Include="Command.cs" />
-    <Compile Include="CustomersCl.cs" />
-    <Compile Include="CustomersPg.xaml.cs">
+    <Compile Include="Models\CustomersCl.cs" />
+    <Compile Include="Views\CustomersPg.xaml.cs">
       <DependentUpon>CustomersPg.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CustomerVm.cs" />
-    <Compile Include="EmployeeCl.cs" />
-    <Compile Include="EmployeePage.xaml.cs">
+    <Compile Include="ViewModels\CustomerVm.cs" />
+    <Compile Include="Models\EmployeeCl.cs" />
+    <Compile Include="Views\EmployeePage.xaml.cs">
       <DependentUpon>EmployeePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeVm.cs" />
+    <Compile Include="ViewModels\EmployeeVm.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenuPage.xaml.cs">
+    <Compile Include="Views\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OrdersCl.cs" />
-    <Compile Include="OrdersPage.xaml.cs">
+    <Compile Include="Models\OrdersCl.cs" />
+    <Compile Include="Views\OrdersPage.xaml.cs">
       <DependentUpon>OrdersPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OrdersVm.cs" />
+    <Compile Include="ViewModels\OrdersVm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoleCl.cs" />
-    <Compile Include="RolesPage.xaml.cs">
+    <Compile Include="Models\RoleCl.cs" />
+    <Compile Include="Views\RolesPage.xaml.cs">
       <DependentUpon>RolesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RoleVm.cs" />
-    <Compile Include="SaleCl.cs" />
-    <Compile Include="SalesPage.xaml.cs">
+    <Compile Include="ViewModels\RoleVm.cs" />
+    <Compile Include="Models\SaleCl.cs" />
+    <Compile Include="Views\SalesPage.xaml.cs">
       <DependentUpon>SalesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SaleVm.cs" />
-    <Compile Include="SupplierCl.cs" />
-    <Compile Include="SupplierPage.xaml.cs">
+    <Compile Include="ViewModels\SaleVm.cs" />
+    <Compile Include="Models\SupplierCl.cs" />
+    <Compile Include="Views\SupplierPage.xaml.cs">
       <DependentUpon>SupplierPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SupplierVm.cs" />
+    <Compile Include="ViewModels\SupplierVm.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -165,15 +165,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="BooksPage.xaml">
+    <Page Include="Views\BooksPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CustomersPg.xaml">
+    <Page Include="Views\CustomersPg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EmployeePage.xaml">
+    <Page Include="Views\EmployeePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -181,23 +181,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MenuPage.xaml">
+    <Page Include="Views\MenuPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OrdersPage.xaml">
+    <Page Include="Views\OrdersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RolesPage.xaml">
+    <Page Include="Views\RolesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SalesPage.xaml">
+    <Page Include="Views\SalesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SupplierPage.xaml">
+    <Page Include="Views\SupplierPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
