@@ -100,8 +100,8 @@
       <DependentUpon>BooksPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\BooksVm.cs" />
-    <Compile Include="ComboBoxPairs.cs" />
-    <Compile Include="Command.cs" />
+    <Compile Include="Helpers\ComboBoxPairs.cs" />
+    <Compile Include="Helpers\Command.cs" />
     <Compile Include="Models\CustomersCl.cs" />
     <Compile Include="Views\CustomersPg.xaml.cs">
       <DependentUpon>CustomersPg.xaml</DependentUpon>
@@ -210,6 +210,7 @@
       <Version>11.0.2</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
